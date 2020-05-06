@@ -1,3 +1,10 @@
+/* =====================================================================
+ * -- Name ------ : Sprintf
+ * -- Date ------ : May 6, 2020
+ * -- Author ---- : Carlos Mendez
+ * -- Description : Save the print result in a variable.
+ ===================================================================== */
+
 package main
 
 import "fmt"

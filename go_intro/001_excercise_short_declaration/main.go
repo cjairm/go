@@ -1,21 +1,21 @@
 /* =====================================================================
- * -- Name ------ : Own types
+ * -- Name ------ : Short Variable Declaration
  * -- Date ------ : May 6, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Assigning our own custom type to a variable 
+ * -- Description : Learn how to initialize variables using "short declaration"
  ===================================================================== */
 
 package main
 
 import "fmt"
 
-type mytype int
-
-var x mytype
-
 func main() {
-	fmt.Printf("%v\n", x)
-	fmt.Printf("%T\n", x)
-	x = 100
-	fmt.Printf("%v\n", x)
+	x := 100
+	y := "Carlos Mendez"
+	z := true
+
+	fmt.Println(x, y, z)
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Println(z)
 }
