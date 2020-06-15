@@ -2,7 +2,7 @@
  * -- Name ------ : Web Test
  * -- Date ------ : Jun 14, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : First testing for web development
+ * -- Description : First testing for web development w/docker file
  ===================================================================== */
 
 package main
