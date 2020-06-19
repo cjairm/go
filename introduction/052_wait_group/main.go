@@ -20,16 +20,16 @@ var wg sync.WaitGroup
 
 func main() {
 	wg.Add(2)
-	max_number := 100
+	maxNumber := 100
 	fmt.Println("OS\t\t", runtime.GOOS)
 	fmt.Println("ARCH\t\t", runtime.GOARCH)
 
 	fmt.Println("CPUs\t\t", runtime.NumCPU())
 	fmt.Println("Goroutines\t", runtime.NumGoroutine())
 
-	go printEvenNumbers(max_number)
-	go printOddNumbers(max_number)
-	printAllNumbers(max_number)
+	go printEvenNumbers(maxNumber)
+	go printOddNumbers(maxNumber)
+	printAllNumbers(maxNumber)
 
 	fmt.Println("CPUs\t\t", runtime.NumCPU())
 	fmt.Println("Goroutines\t", runtime.NumGoroutine())
