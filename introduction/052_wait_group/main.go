@@ -40,7 +40,7 @@ func main() {
 func printEvenNumbers(mn int) {
 	for i := 0; i < mn; i++ {
 		if i%2 != 0 {
-			fmt.Println("I'm a EVEN number: ", i)
+			fmt.Println("I'm an EVEN number: ", i)
 		}
 	}
 	wg.Done()
@@ -49,7 +49,7 @@ func printEvenNumbers(mn int) {
 func printOddNumbers(mn int) {
 	for i := 0; i < mn; i++ {
 		if i%2 == 0 {
-			fmt.Println("I'm a ODD number: ", i)
+			fmt.Println("I'm an ODD number: ", i)
 		}
 	}
 	wg.Done()
