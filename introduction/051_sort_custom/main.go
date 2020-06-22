@@ -1,14 +1,3 @@
-/* =====================================================================
- * -- Name ------ : Sorting
- * -- Date ------ : Jun 14, 2020
- * -- Author ---- : Carlos Mendez
- * -- Description : Sort the []user by
-		● age
-		● last
-	Also sort each []string “Sayings” for each user
-		● print everything in a way that is pleasant
- ===================================================================== */
-
 package main
 
 import (

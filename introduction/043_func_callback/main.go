@@ -1,11 +1,3 @@
-/* =====================================================================
- * -- Name ------ : Callback function
- * -- Date ------ : Jun 3, 2020
- * -- Author ---- : Carlos Mendez
- * -- Description : A “callback” is when we pass a func into a func as an argument. For this exercise,
-	● pass a func into a func as an argument
- ===================================================================== */
-
 package main
 
 import (

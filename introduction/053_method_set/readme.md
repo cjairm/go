@@ -1,15 +1,27 @@
-#  Functions Intro - Description
+#  Method Sets - Description
 
-Creating anonymous structs. It is not necesary declare a type.
+This exercise will reinforce our understanding of method sets:
 
 # Instructions
 
-<dl>
-  <dt>1. Create a func with the identifier foo that returns an int</dt>
-  <dt>2. Create a func with the identifier bar that returns an int and a string</dt>
-  <dt>3. Call both funcs</dt>
-  <dt>4. Print out their results</dt>
-</dl>
+* create a type person struct
+* attach a method speak to type person using a pointer receiver
+  * *person
+* create a type human interface
+  * to implicitly implement the interface, a human must have the speak method
+* create func “saySomething”
+  * have it take in a human as a parameter
+  * have it call the speak method
+* show the following in your code
+  * you CAN pass a value of type *person into saySomething
+  * you CANNOT pass a value of type person into saySomething
+* here is a hint if you need some help
+  * https://play.golang.org/p/FAwcQbNtMG
+
+Receivers  Values
+-----------------------------------------------
+(t T)      T and *T
+(t *T)     *T
 
 # How to use it
 
@@ -23,4 +35,4 @@ Creating anonymous structs. It is not necesary declare a type.
 
 ### Created
 
-May 18, 2020
+Jun 21, 2020

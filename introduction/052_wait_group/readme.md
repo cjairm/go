@@ -1,15 +1,12 @@
-#  Functions Intro - Description
+# Wait Group - Description
 
-Creating anonymous structs. It is not necesary declare a type.
+-
 
 # Instructions
 
-<dl>
-  <dt>1. Create a func with the identifier foo that returns an int</dt>
-  <dt>2. Create a func with the identifier bar that returns an int and a string</dt>
-  <dt>3. Call both funcs</dt>
-  <dt>4. Print out their results</dt>
-</dl>
+* In addition to the main goroutine, launch two additional goroutines
+  * Each additional goroutine should print something out
+* Use waitgroups to make sure each goroutine finishes before your program exists
 
 # How to use it
 
@@ -23,4 +20,4 @@ Creating anonymous structs. It is not necesary declare a type.
 
 ### Created
 
-May 18, 2020
+Jun 18, 2020

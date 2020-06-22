@@ -1,9 +1,8 @@
 /* =====================================================================
- * -- Name ------ : Encode to JSON
- * -- Date ------ : Jun 14, 2020
+ * -- Name ------ : 
+ * -- Date ------ : 
  * -- Author ---- : Carlos Mendez
- * -- Description : encode to JSON the []user sending the results to Stdout.
-	Hint: you will need to use json.NewEncoder(os.Stdout).encode(v interface{})
+ * -- Description : 
  ===================================================================== */
 
 package main

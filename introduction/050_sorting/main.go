@@ -1,10 +1,3 @@
-/* =====================================================================
- * -- Name ------ : Sorting
- * -- Date ------ : Jun 14, 2020
- * -- Author ---- : Carlos Mendez
- * -- Description : Sort the []int and []string for each person.
- ===================================================================== */
-
 package main
 
 import (

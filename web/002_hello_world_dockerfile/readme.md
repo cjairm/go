@@ -1,21 +1,13 @@
-#  Functions Intro - Description
+#  Web Test - Description
 
-Creating anonymous structs. It is not necesary declare a type.
-
-# Instructions
-
-<dl>
-  <dt>1. Create a func with the identifier foo that returns an int</dt>
-  <dt>2. Create a func with the identifier bar that returns an int and a string</dt>
-  <dt>3. Call both funcs</dt>
-  <dt>4. Print out their results</dt>
-</dl>
+First testing for web development w/docker file
 
 # How to use it
 
-* Download main.go
+* Download main.go and Dockerfile
 * Save it in some folder
-* Execute `go run ./my/path/main.go`
+* Execute `docker build -t [docker-image-name] .`. Now that we have defined everything we need for our Go application to run in our Dockerfile we can now build an image using this file.
+* Execute `docker run -p 8080:8081 -it [docker-image-name]`. In order to run this newly created image, we can use the docker run command and pass in the ports we want to map to and the image we wish to run.
 
 ## Author(s)
 
@@ -23,4 +15,4 @@ Creating anonymous structs. It is not necesary declare a type.
 
 ### Created
 
-May 18, 2020
+Jun 14, 2020

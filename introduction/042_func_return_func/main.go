@@ -1,11 +1,9 @@
 /* =====================================================================
- * -- Name ------ : Return function
- * -- Date ------ : Jun 3, 2020
+ * -- Name ------ : 
+ * -- Date ------ : 
  * -- Author ---- : Carlos Mendez
  * -- Description :
-	● Create a func which returns a func
-	● assign the returned func to a variable
-	● call the returned func
+	
  ===================================================================== */
 
 package main

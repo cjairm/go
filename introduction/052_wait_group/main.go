@@ -1,13 +1,3 @@
-/* =====================================================================
- * -- Name ------ : Wait Group
- * -- Date ------ : Jun 18, 2020
- * -- Author ---- : Carlos Mendez
- * -- Description :
-	● In addition to the main goroutine, launch two additional goroutines
-		○ Each additional goroutine should print something out
-	● Use waitgroups to make sure each goroutine finishes before your program exists
- ===================================================================== */
-
 package main
 
 import (

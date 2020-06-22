@@ -1,15 +1,6 @@
-#  Functions Intro - Description
+#  Encode to JSON - Description
 
-Creating anonymous structs. It is not necesary declare a type.
-
-# Instructions
-
-<dl>
-  <dt>1. Create a func with the identifier foo that returns an int</dt>
-  <dt>2. Create a func with the identifier bar that returns an int and a string</dt>
-  <dt>3. Call both funcs</dt>
-  <dt>4. Print out their results</dt>
-</dl>
+Encode to JSON the []user sending the results to Stdout. Hint: you will need to use json.NewEncoder(os.Stdout).encode(v interface{})
 
 # How to use it
 
@@ -23,4 +14,4 @@ Creating anonymous structs. It is not necesary declare a type.
 
 ### Created
 
-May 18, 2020
+Jun 14, 2020

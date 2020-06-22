@@ -1,10 +1,3 @@
-/* =====================================================================
- * -- Name ------ : JSON marshal
- * -- Date ------ : Jun 12, 2020
- * -- Author ---- : Carlos Mendez
- * -- Description : marshal the []user to JSON
- ===================================================================== */
-
 package main
 
 import (
