@@ -2,7 +2,6 @@
  * -- Name ------ : IOTA
  * -- Date ------ : May 8, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Testing the funcionality of iota keyword
  ===================================================================== */
 
 package main

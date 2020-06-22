@@ -2,7 +2,6 @@
  * -- Name ------ : Convert to
  * -- Date ------ : May 8, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Prints the same number in differents formats such as decimal, hexadecimal and binary
  ===================================================================== */
 
 package main

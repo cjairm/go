@@ -2,7 +2,6 @@
  * -- Name ------ : For nested
  * -- Date ------ : May 8, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : First for loop in a loop
  ===================================================================== */
 
 package main

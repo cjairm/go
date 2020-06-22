@@ -2,7 +2,6 @@
  * -- Name ------ : Slice append
  * -- Date ------ : May 10, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : In the slice append new elements
  ===================================================================== */
 
 package main

@@ -2,7 +2,6 @@
  * -- Name ------ : Array
  * -- Date ------ : May 10, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Using composite literal will hold an array with N values
  ===================================================================== */
 
 package main

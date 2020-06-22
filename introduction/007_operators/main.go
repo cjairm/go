@@ -2,7 +2,6 @@
  * -- Name ------ : Operators
  * -- Date ------ : May 8, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Testing operators in order to check how they work
  ===================================================================== */
 
 package main

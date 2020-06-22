@@ -2,7 +2,6 @@
  * -- Name ------ : Maps delete
  * -- Date ------ : May 10, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Create maps - and append values to it and after that delete a key
  ===================================================================== */
 
 package main

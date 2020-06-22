@@ -2,7 +2,6 @@
  * -- Name ------ : For infinite
  * -- Date ------ : May 8, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : This foor iterate infinitelly until break the for
  ===================================================================== */
 
 package main

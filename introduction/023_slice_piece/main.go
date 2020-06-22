@@ -2,7 +2,6 @@
  * -- Name ------ : Slice Piece
  * -- Date ------ : May 10, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Using a slides create slices from the main one.
  ===================================================================== */
 
 package main

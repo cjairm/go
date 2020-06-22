@@ -2,7 +2,6 @@
  * -- Name ------ : For - module
  * -- Date ------ : May 8, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : found module of 4 in numbers 4-90
  ===================================================================== */
 
 package main

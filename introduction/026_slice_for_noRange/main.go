@@ -2,7 +2,6 @@
  * -- Name ------ : States in slices
  * -- Date ------ : May 10, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Slice that store the states of USA
  ===================================================================== */
 
 package main

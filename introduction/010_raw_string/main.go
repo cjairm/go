@@ -2,7 +2,6 @@
  * -- Name ------ : Raw String
  * -- Date ------ : May 8, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : This obey each character inserted included enters for example....
  ===================================================================== */
 
 package main

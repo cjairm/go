@@ -2,7 +2,6 @@
  * -- Name ------ : Slice
  * -- Date ------ : May 10, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Using composite literal creating slice type
  ===================================================================== */
 
 package main

@@ -2,7 +2,6 @@
  * -- Name ------ : Structs
  * -- Date ------ : May 16, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Creating first struct.
  ===================================================================== */
 
 package main

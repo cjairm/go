@@ -2,7 +2,6 @@
  * -- Name ------ : Shift bit
  * -- Date ------ : May 8, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Moving a bit to different place in order to generate new numbers
  ===================================================================== */
 
 package main

@@ -2,7 +2,6 @@
  * -- Name ------ : Structs embeded
  * -- Date ------ : May 16, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Practicing structs by creating onw and using it in another.
  ===================================================================== */
 
 package main

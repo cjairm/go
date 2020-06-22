@@ -2,7 +2,6 @@
  * -- Name ------ : Short Variable Declaration
  * -- Date ------ : May 6, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Learn how to initialize variables using "short declaration"
  ===================================================================== */
 
 package main

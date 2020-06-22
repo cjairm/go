@@ -2,7 +2,6 @@
  * -- Name ------ : States multidimentional
  * -- Date ------ : May 10, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Slice that store many slices inside
  ===================================================================== */
 
 package main

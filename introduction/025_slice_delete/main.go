@@ -2,7 +2,6 @@
  * -- Name ------ : Slice delete
  * -- Date ------ : May 10, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : In the slice delete elements
  ===================================================================== */
 
 package main

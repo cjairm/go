@@ -2,7 +2,6 @@
  * -- Name ------ : Anonymous Structs
  * -- Date ------ : May 16, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Creating anonymous structs. It is not necesary declare a type
  ===================================================================== */
 
 package main

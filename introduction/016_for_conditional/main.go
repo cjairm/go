@@ -2,7 +2,6 @@
  * -- Name ------ : For conditional
  * -- Date ------ : May 8, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Iterate a for until a condition
  ===================================================================== */
 
 package main

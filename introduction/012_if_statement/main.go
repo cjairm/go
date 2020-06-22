@@ -2,7 +2,6 @@
  * -- Name ------ : if
  * -- Date ------ : May 8, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : working for first time with if statement
  ===================================================================== */
 
 package main

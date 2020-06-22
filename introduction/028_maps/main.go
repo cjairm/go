@@ -2,7 +2,6 @@
  * -- Name ------ : Maps
  * -- Date ------ : May 10, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Create maps - This means arrays with key as selectors
  ===================================================================== */
 
 package main

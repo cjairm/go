@@ -2,7 +2,6 @@
  * -- Name ------ : Structs and map
  * -- Date ------ : May 16, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Creating structs inside maps.
  ===================================================================== */
 
 package main

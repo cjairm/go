@@ -2,7 +2,6 @@
  * -- Name ------ : For
  * -- Date ------ : May 8, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : First for loop
  ===================================================================== */
 
 package main

@@ -2,8 +2,6 @@
  * -- Name ------ : Assing type and init with zero values
  * -- Date ------ : May 6, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Assigning types to variables and assigning the default value to each variable
- *					by zero value.
  ===================================================================== */
 
 package main

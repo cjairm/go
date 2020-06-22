@@ -2,7 +2,7 @@
 
 Prints the standard message "Hello world"
 
-# Control Flow
+## Control Flow
 
 * Sequense
 * Loop: iterative
@@ -11,5 +11,5 @@ Prints the standard message "Hello world"
 # How to use it
 
 * Download main.go
-* Save them in some folder
+* Save it in some folder
 * Execute `go run ./my/path/main.go`

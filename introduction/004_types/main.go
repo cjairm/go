@@ -2,7 +2,6 @@
  * -- Name ------ : Own types
  * -- Date ------ : May 6, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Assigning our own custom type to a variable 
  ===================================================================== */
 
 package main

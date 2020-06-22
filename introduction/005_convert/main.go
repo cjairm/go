@@ -2,8 +2,6 @@
  * -- Name ------ : Convert
  * -- Date ------ : May 6, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : The word casting does not exists in Go. The word used insted is conversions.
- *					Convert one variable to assing a value to another variable
  ===================================================================== */
 
 package main
