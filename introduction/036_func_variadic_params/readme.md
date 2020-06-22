@@ -1,15 +1,16 @@
-#  Functions Intro - Description
+#  Functions with params - Description
 
-Creating anonymous structs. It is not necesary declare a type.
+-
 
 # Instructions
 
-<dl>
-  <dt>1. Create a func with the identifier foo that returns an int</dt>
-  <dt>2. Create a func with the identifier bar that returns an int and a string</dt>
-  <dt>3. Call both funcs</dt>
-  <dt>4. Print out their results</dt>
-</dl>
+● create a func with the identifier foo that
+  ○ takes in a variadic parameter of type int
+  ○ pass in a value of type []int into your func (unfurl the []int)
+  ○ returns the sum of all values of type int passed in
+● create a func with the identifier bar that
+  ○ takes in a parameter of type []int
+  ○ returns the sum of all values of type int passed in
 
 # How to use it
 
@@ -23,4 +24,4 @@ Creating anonymous structs. It is not necesary declare a type.
 
 ### Created
 
-May 18, 2020
+Jun 2, 2020

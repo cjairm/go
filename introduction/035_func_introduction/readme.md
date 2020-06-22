@@ -1,6 +1,6 @@
 #  Functions Intro - Description
 
-Creating anonymous structs. It is not necesary declare a type.
+-
 
 # Instructions
 
