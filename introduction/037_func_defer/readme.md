@@ -1,15 +1,6 @@
-#  Functions Intro - Description
+#  Functions defer - Description
 
-Creating anonymous structs. It is not necesary declare a type.
-
-# Instructions
-
-<dl>
-  <dt>1. Create a func with the identifier foo that returns an int</dt>
-  <dt>2. Create a func with the identifier bar that returns an int and a string</dt>
-  <dt>3. Call both funcs</dt>
-  <dt>4. Print out their results</dt>
-</dl>
+Use the “defer” keyword to show that a deferred func runs after the func containing it exits.
 
 # How to use it
 
@@ -23,4 +14,4 @@ Creating anonymous structs. It is not necesary declare a type.
 
 ### Created
 
-May 18, 2020
+Jun 2, 2020

@@ -4,12 +4,10 @@
 
 # Instructions
 
-<dl>
-  <dt>1. Create a func with the identifier foo that returns an int</dt>
-  <dt>2. Create a func with the identifier bar that returns an int and a string</dt>
-  <dt>3. Call both funcs</dt>
-  <dt>4. Print out their results</dt>
-</dl>
+* Create a func with the identifier foo that returns an int 
+* Create a func with the identifier bar that returns an int and a string
+* Call both funcs
+* Print out their results
 
 # How to use it
 
@@ -23,4 +21,4 @@
 
 ### Created
 
-May 18, 2020
+Jun 2, 2020
