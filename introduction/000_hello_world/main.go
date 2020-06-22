@@ -2,7 +2,6 @@
  * -- Name ------ : Hello World
  * -- Date ------ : May 1, 2020
  * -- Author ---- : Carlos Mendez
- * -- Description : Prints the standard message "Hello world"
  ===================================================================== */
 
 package main
@@ -23,8 +22,3 @@ func main() {
 func foo() {
 	fmt.Println("From: Foo")
 }
-
-// control flow:
-// (1) sequense
-// (2) loop: iterative
-// (3) conditional
