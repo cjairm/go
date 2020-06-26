@@ -5,7 +5,7 @@
 
 * Fix the race condition you created in the previous exercise by using a mutex
     * it makes sense to remove runtime.Gosched()
-* Exercise from [here](https://github.com/cjairm/arduino/tree/master/introduction/054_goroutines_race_condition)
+* Exercise from [here](https://github.com/cjairm/go/tree/master/introduction/054_goroutines_race_condition)
 
 # How to use it
 
