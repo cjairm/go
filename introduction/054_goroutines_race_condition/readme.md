@@ -1,4 +1,4 @@
-#  Go Routines - Description
+#  Race Condition - Description
 
 -
 
@@ -22,7 +22,7 @@
 
 * Download main.go
 * Save it in some folder
-* Execute `go run ./my/path/main.go`
+* Execute `go run -race ./my/path/main.go`
 
 ## Author(s)
 
