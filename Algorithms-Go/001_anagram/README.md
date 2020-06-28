@@ -40,6 +40,7 @@ Create function called "isAnagramValid"
 * Download main.go
 * Save them in some folder
 * Run `go run ./my/folder/main.go`
+	* To run test `go test`
 
 # Author
 
