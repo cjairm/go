@@ -27,32 +27,16 @@ func isAnagramValid(s1 string, s2 string) bool {
 	// First we convert the string one to lowercase
 	for _, currLetter := range strings.ToLower(s1) {
 		// fmt.Printf("Start Index: %d Value:%s\n", i, string(currLetter))
-		letterExists := false
-		if h1[string(currLetter)] != 0 {
-			letterExists = true
-		}
-
-		if letterExists {
-			h1[string(currLetter)] = h1[string(currLetter)] + 1
-		} else {
-			h1[string(currLetter)] = 1
-		}
+		// It start always at zero. Zero Values
+		h1[string(currLetter)]++
 	}
 
 	// Iterate second string and save how many letter exists
 	// First we convert the string two to lowercase
 	for _, currLetter := range strings.ToLower(s2) {
 		// fmt.Printf("Start Index: %d Value:%s\n", i, string(currLetter))
-		letterExists := false
-		if h2[string(currLetter)] != 0 {
-			letterExists = true
-		}
-
-		if letterExists {
-			h2[string(currLetter)] = h2[string(currLetter)] + 1
-		} else {
-			h2[string(currLetter)] = 1
-		}
+		// It start always at zero. Zero Values
+		h2[string(currLetter)]++
 	}
 
 	// Iterate one of the object created.

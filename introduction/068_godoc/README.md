@@ -3,15 +3,15 @@
 "
 Before writing documentation, we are going to look at reading documentation. There are several
 things to know about documentation:
-	* godoc.org
-		* standard library and third party package documentation
-	* golang.org
-		* standard library documentation
-	* go doc
-		* command to read documentation at the command line
-	* godoc
-		* command to read documentation at the command line
-		* also can run a local server showing documentation
+* godoc.org
+	* standard library and third party package documentation
+* golang.org
+	* standard library documentation
+* go doc
+	* command to read documentation at the command line
+* godoc
+	* command to read documentation at the command line
+	* also can run a local server showing documentation
 ". Todd McLeod
 
 
