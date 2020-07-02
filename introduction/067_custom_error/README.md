@@ -4,8 +4,8 @@
 # Instructions
 
 Starting with ​this code​, use the sqrt.Error struct as a value of type error. If you would like, use these numbers for your
-	* lat "50.2289 N"
-	* long "99.4656 W"
+* lat "50.2289 N"
+* long "99.4656 W"
 ```
 type sqrtError struct {
 	lat  string
