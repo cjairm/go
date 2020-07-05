@@ -37,9 +37,10 @@ Create function called "isAnagramValid"
 ```
 
 # How to use it
+
 * Download main.go
 * Save them in some folder
-* Run `go run ./my/folder/main.go`
+* Run `go run main.go`
 	* To run test `go test`
 
 # Author
