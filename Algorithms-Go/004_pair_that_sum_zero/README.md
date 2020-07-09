@@ -32,9 +32,9 @@ Create a loop while hr is greater than hl
 
     If the sum is equal to zero return [array at position hr, array at position hl]
 
-    If the sum is greater than zero increment hr
+    If the sum is greater than zero decrement in one hr
 
-    If the sum is lower than zero increment hl
+    If the sum is lower than zero increment in one hl
 ```
 
 # How it works?
