@@ -14,6 +14,21 @@
     * [Count Unique Values](https://github.com/cjairm/go/tree/master/Algorithms-Go/002_count_unique_values)
     * [Pair That Sum Zero](https://github.com/cjairm/go/tree/master/Algorithms-Go/004_pair_that_sum_zero)
 
+## Sliding Window
+
+* "This pattern involves creating a `window` which can either be an array or number from one position to another." Colt Steele.
+* "Depending on a certain condition, the window either increases or closes (and new window is created)." Colt Steele.
+* "Very useful for keeping track of a subset of data in an array/string etc." Colt Steele.
+* Example. 
+    * [Max sub array sum](https://github.com/cjairm/go/tree/master/Algorithms-Go/005_max_sub_array_sum)
+
+## Divide and Conquer 
+* "This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data." Colt Steele.
+* "This pattern can tremendously `decrease time complexity`." Colt Steele.
+* Example. 
+    * [Search a number](https://github.com/cjairm/go/tree/master/Algorithms-Go/006_search_a_number)
+
+
 # Golang Algorithms
 
 My daily practice. These examples are written in different languages
