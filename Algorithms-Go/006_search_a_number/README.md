@@ -16,7 +16,25 @@ Given a `sorted` array of integers, write a function called "SearchNumber", that
 
 This was my thinking before resolve the problem.
 ```
+Create a function called "SearchNumber"
 
+If the array received contains zero elements stop the program ans return -1
+
+If the array received contains one element stop the program and return 1
+
+Init a pointer at the end of the array and another one at the beggining of the array.
+
+Init a loop while max pointer is bigger than min pointer
+
+	Get the middle of the array
+
+	(Check middle value)
+
+	If middle value is bigger than searched number move max pointer to left (middle pointer - 1)
+
+	If middle value is lower than searched number move min pointer to right (middle pointer + 1)
+
+	if Equal return position (middle index)
 ```
 
 # How it works?
