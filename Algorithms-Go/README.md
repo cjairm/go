@@ -22,7 +22,13 @@
 * Example. 
     * [Max sub array sum](https://github.com/cjairm/go/tree/master/Algorithms-Go/005_max_sub_array_sum)
 
-## Divide and Conquer 
+## Recursion 
+* "It is a process (in these cases functions) that calls itself." Colt Steele.
+* [Martin and The Dragon (History)](https://webdocs.cs.ualberta.ca/~ree/c101-b2/dragonstory0.pdf)
+* Example. 
+    * [Recursion Example](https://github.com/cjairm/go/tree/master/Algorithms-Go/007_factorial_number)
+
+## Binary Search (Divide and Conquer) 
 * "This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data." Colt Steele.
 * "This pattern can tremendously `decrease time complexity`." Colt Steele.
 * Example. 
