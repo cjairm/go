@@ -14,6 +14,7 @@ Implement a function called, `areThereDuplicates` which accepts a `variable numb
 
 # Pseudo code
 
+This was my thinking before resolve the problem.
 ```
 Sort xi
 
@@ -41,7 +42,7 @@ initial state
 // [1, 2, 2]
 
 3 state
-// compate 1 vs 2
+// compare 1 vs 2
 
 ...states
 ```
