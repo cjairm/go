@@ -5,7 +5,6 @@
 -   Examples.
     -   [Anagram](https://github.com/cjairm/go/tree/master/Algorithms-Go/001_anagram)
     -   [Same But Squared](https://github.com/cjairm/go/tree/master/Algorithms-Go/003_same_but_squared)
-    -   [Frecuency Counter](https://github.com/cjairm/go/tree/master/Algorithms-Go/008_frecuency_counter)
 
 ## Multiple Pointers
 
@@ -46,6 +45,11 @@
 -   "A sorting algorithm where the largest values bubble up to the top." Colt Steele.
 -   Example.
     -   [Bubble Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/009_bubble_sort)
+
+## Excercises
+
+-   [Frecuency Counter](https://github.com/cjairm/go/tree/master/Algorithms-Go/008_frecuency_counter)
+-   [Are there duplicates](https://github.com/cjairm/go/tree/master/Algorithms-Go/010_are_there_duplicates)
 
 # Golang Algorithms
 

@@ -1,3 +1,4 @@
+// Package algorithm contains different algorithms
 package algorithm
 
 // BubbleSort sorts an array of numbers
