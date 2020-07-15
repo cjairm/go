@@ -83,7 +83,7 @@ Jul 14, 2020
 
 ### Same algorithm, different languages
 
-* [JavaScript](https://github.com/cjairm/javascript/tree/master/Algorithms-JS/002_count_unique_values)
-* [Python](https://github.com/cjairm/python/tree/master/Algoritms-Py/002_count_unique_values)
-* [TypeScript](https://github.com/cjairm/typescript/tree/master/Algorithms-TS/002_count_unique_values)
-* [C++(Arduino)](https://github.com/cjairm/arduino/tree/master/Algorithms-Cpp/002_count_unique_values)
+* [JavaScript](https://github.com/cjairm/javascript/tree/master/Algorithms-JS/008_frecuency_counter)
+* [Python](https://github.com/cjairm/python/tree/master/Algoritms-Py/008_frecuency_counter)
+* [TypeScript](https://github.com/cjairm/typescript/tree/master/Algorithms-TS/008_frecuency_counter)
+* [C++(Arduino)](https://github.com/cjairm/arduino/tree/master/Algorithms-Cpp/008_frecuency_counter)

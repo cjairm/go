@@ -93,7 +93,7 @@ Jul 10, 2020
 
 ### Same algorithm, different languages
 
-* [JavaScript](https://github.com/cjairm/javascript/tree/master/Algorithms-JS/004_pair_that_sum_zero)
-* [Python](https://github.com/cjairm/python/tree/master/Algoritms-Py/004_pair_that_sum_zero)
-* [TypeScript](https://github.com/cjairm/typescript/tree/master/Algorithms-TS/004_pair_that_sum_zero)
-* [C++(Arduino)](https://github.com/cjairm/arduino/tree/master/Algorithms-Cpp/004_pair_that_sum_zero)
+* [JavaScript](https://github.com/cjairm/javascript/tree/master/Algorithms-JS/005_max_sub_array_sum)
+* [Python](https://github.com/cjairm/python/tree/master/Algoritms-Py/005_max_sub_array_sum)
+* [TypeScript](https://github.com/cjairm/typescript/tree/master/Algorithms-TS/005_max_sub_array_sum)
+* [C++(Arduino)](https://github.com/cjairm/arduino/tree/master/Algorithms-Cpp/005_max_sub_array_sum)

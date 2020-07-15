@@ -34,6 +34,13 @@
 * Example. 
     * [Search a number](https://github.com/cjairm/go/tree/master/Algorithms-Go/006_search_a_number)
 
+## Sorting 
+* "Sorting is a process of rearranging the items in a collection (e.g. an array) so that the items are in some kind of order." Colt Steele.
+
+### Bubble Sort
+* "A sorting algorithm where the largest values bubble up to the top." Colt Steele.
+* Example. 
+    * [Bubble Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/009_bubble_sort)
 
 # Golang Algorithms
 
