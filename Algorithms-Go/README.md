@@ -50,7 +50,7 @@
 
 -   "Similar to bubble sort, but instead of first placing large values into sorted position, it places small values into sorted position." Colt Steele.
 -   Example.
-    -   [Bubble Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/011_selection_sort)
+    -   [Selection Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/011_selection_sort)
 
 ## Excercises
 
