@@ -52,10 +52,17 @@
 -   Example.
     -   [Selection Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/011_selection_sort)
 
+### Insertion Sort
+
+-   "Builds up the sort by gradually creating a larger left half which is always sorted." Colt Steele.
+-   Example.
+    -   [Insertion Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/012_insertion_sort)
+
 ## Excercises
 
 -   [Frecuency Counter](https://github.com/cjairm/go/tree/master/Algorithms-Go/008_frecuency_counter)
 -   [Are there duplicates](https://github.com/cjairm/go/tree/master/Algorithms-Go/010_are_there_duplicates)
+-   [Merge Sorted Arrays](https://github.com/cjairm/go/tree/master/Algorithms-Go/013_merge_sorted_arrays)
 
 # Golang Algorithms
 
