@@ -58,11 +58,21 @@
 -   Example.
     -   [Insertion Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/012_insertion_sort)
 
+### Merge Sort
+
+-   "There is a family of sorting algorithms that can improve time complexity from O(n ) to O(n log n)." Colt Steele.
+-   "It's a combination of two things - merging and sorting!" Colt Steele.
+-   "Exploits the fact that arrays of 0 or 1 element are always sorted." Colt Steele.
+-   "Works by decomposing an array into smaller arrays of 0 or 1 elements, then building up a newly sorted array." Colt Steele.
+-   Example.
+    -   [Merge Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/014_merge_sort)
+
 ## Excercises
 
 -   [Frecuency Counter](https://github.com/cjairm/go/tree/master/Algorithms-Go/008_frecuency_counter)
 -   [Are there duplicates](https://github.com/cjairm/go/tree/master/Algorithms-Go/010_are_there_duplicates)
 -   [Merge Sorted Arrays](https://github.com/cjairm/go/tree/master/Algorithms-Go/013_merge_sorted_arrays)
+-   [Get Pivot - Quick Sor](https://github.com/cjairm/go/tree/master/Algorithms-Go/015_get_pivot_quick_sort)
 
 # Golang Algorithms
 
