@@ -67,12 +67,31 @@
 -   Example.
     -   [Merge Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/014_merge_sort)
 
+### Quick Sort
+
+-   "Like merge sort, exploits the fact that arrays of 0 or 1 element are always sorted." Colt Steele.
+-   "Works by selecting one element (called the "pivot") and finding the index where the pivot should end up in the sorted array." Colt Steele.
+-   "Once the pivot is positioned appropriately, quick sort can be applied on either side of the pivot." Colt Steele.
+-   Example.
+    -   [Quick Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/017_quick_sort)
+
+### Radix Sort
+
+-   "Radix sort is a special sorting algorithm that works on lists of numbers." Colt Steele.
+-   "It exploits the fact that information about the size of a number is encoded in the number of digits." Colt Steele.
+-   "More digits means a bigger number!." Colt Steele.
+-   "It never makes comparisons between elements!." Colt Steele.
+-   Example.
+    -   [Radix Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/019_radix_sort)
+
 ## Excercises
 
 -   [Frecuency Counter](https://github.com/cjairm/go/tree/master/Algorithms-Go/008_frecuency_counter)
--   [Are there duplicates](https://github.com/cjairm/go/tree/master/Algorithms-Go/010_are_there_duplicates)
+-   [Are There Duplicates?](https://github.com/cjairm/go/tree/master/Algorithms-Go/010_are_there_duplicates)
 -   [Merge Sorted Arrays](https://github.com/cjairm/go/tree/master/Algorithms-Go/013_merge_sorted_arrays)
--   [Get Pivot - Quick Sor](https://github.com/cjairm/go/tree/master/Algorithms-Go/015_get_pivot_quick_sort)
+-   [Get Pivot - Quick Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/015_get_pivot_quick_sort)
+-   [Average Pair](https://github.com/cjairm/go/tree/master/Algorithms-Go/016_average_pair)
+-   [Is Subsequence?](https://github.com/cjairm/go/tree/master/Algorithms-Go/018_is_subsequence)
 
 # Golang Algorithms
 
