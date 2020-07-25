@@ -1,6 +1,6 @@
 # Description
 
-Sort an array (IS NOT WORKING YET)
+Sort an array
 
 # Example Output
 
@@ -17,6 +17,8 @@ Sort an array (IS NOT WORKING YET)
 # Pseudo code
 
 ```
+CODE WAS COPIED!!!!!!
+
 Call the pivot helper on the array
 
 When the helper returns to you the updated pivot index, recursively call the pivot helper on the subarray to the left of that index, and the subarray to the right of that index
@@ -56,7 +58,7 @@ Your base case occurs when you consider a subarray with less than 2 elements
 
 # Author
 
-Carlos Mendez
+[Web](https://www.golangprograms.com/golang-program-for-implementation-of-quick-sort.html)
 
 ## Why 0(n)?
 

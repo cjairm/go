@@ -2,43 +2,28 @@
 package algorithm
 
 // QuickSort as the name says sort the array
-func QuickSort(xi []int, left int, right int) []int {
-	if right == 0 {
-		right = len(xi) - 1
+func QuickSort(xi []int) []int {
+	if len(xi) < 2 {
+		return xi
 	}
 
-	if left < right {
-		pivotIndex, _ := GetPivotQuickSort(xi, left, right)
+	left, right := 0, len(xi)-1
 
-		QuickSort(xi, left, pivotIndex-1)
+	var pivot int
 
-		QuickSort(xi, pivotIndex+1, right)
-	}
-	
-	return xi
-}
+	xi[pivot], xi[right] = xi[right], xi[pivot]
 
-// GetPivotQuickSort as the name says merge two arrays
-func GetPivotQuickSort(xi []int, start int, end int) (int, []int) {
-	if len(xi) <= 1 {
-		return len(xi), xi
-	}
-
-	if end == 0 {
-		end = len(xi) - 1
-	}
-
-	pivot := xi[start]
-	swapIndex := start
-
-	for i := start + 1; i <= end; i++ {
-		if pivot > xi[i] {
-			swapIndex++
-			xi[i], xi[swapIndex] = xi[swapIndex], xi[i]
+	for i := range xi {
+		if xi[i] < xi[right] {
+			xi[left], xi[i] = xi[i], xi[left]
+			left++
 		}
 	}
 
-	xi[start], xi[swapIndex] = xi[swapIndex], xi[start]
+	xi[left], xi[right] = xi[right], xi[left]
 
-	return swapIndex, xi
+	QuickSort(xi[:left])
+	QuickSort(xi[left+1:])
+
+	return xi
 }

@@ -5,46 +5,68 @@ import (
 	"testing"
 )
 
-func TestGetPivotQuickSort(t *testing.T) {
-	test1, _ := GetPivotQuickSort([]int{5, 2, 1, 8, 4, 7, 6, 3}, 0, 0)
+func TestQuickSort(t *testing.T) {
+	test1 := QuickSort([]int{1, 10, 19, 20, 2, 3, 10, 18, 10})
 
-	if test1 != 4 {
-		t.Error("Got: ", test1, "Expected: ", 4)
+	if !testEq([]int{1, 2, 3, 10, 10, 10, 18, 19, 20}, test1) {
+		t.Error("Got: ", test1, "Expected: ", []int{1, 2, 3, 10, 10, 10, 18, 19, 20})
 	}
 
-	test2, _ := GetPivotQuickSort([]int{}, 0, 0)
+	test2 := QuickSort([]int{})
 
-	if test2 != 0 {
-		t.Error("Got: ", test2, "Expected: ", 0)
+	if !testEq([]int{}, test2) {
+		t.Error("Got: ", test2, "Expected: ", []int{})
 	}
 
-	test3, _ := GetPivotQuickSort([]int{9, 1, 2, 3, 10, 11}, 0, 0)
+	test3 := QuickSort([]int{9, 10, 1, 2})
 
-	if test3 != 3 {
-		t.Error("Got: ", test3, "Expected: ", 3)
+	if !testEq([]int{1, 2, 9, 10}, test3) {
+		t.Error("Got: ", test3, "Expected: ", []int{1, 2, 9, 10})
 	}
 
-	test4, _ := GetPivotQuickSort([]int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14}, 0, 0)
+	test4 := QuickSort([]int{1, 0, 0, 1})
 
-	if test4 != 0 {
-		t.Error("Got: ", test4, "Expected: ", 0)
+	if !testEq([]int{0, 0, 1, 1}, test4) {
+		t.Error("Got: ", test4, "Expected: ", []int{0, 0, 1, 1})
 	}
 
-	test5, _ := GetPivotQuickSort([]int{10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14}, 0, 0)
+	test5 := QuickSort([]int{100, 20, 90, 80, 10, 0, 30, 70, 50, 60, 11, 23, 34, 45, 56, 67, 78, 99})
 
-	if test5 != 9 {
-		t.Error("Got: ", test5, "Expected: ", 9)
+	if !testEq([]int{0, 10, 11, 20, 23, 30, 34, 45, 50, 56, 60, 67, 70, 78, 80, 90, 99, 100}, test5) {
+		t.Error("Got: ", test5, "Expected: ", []int{0, 10, 11, 20, 23, 30, 34, 45, 50, 56, 60, 67, 70, 78, 80, 90, 99, 100})
 	}
 }
 
-func BenchmarkGetPivotQuickSort(b *testing.B) {
+func BenchmarkQuickSort(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		GetPivotQuickSort([]int{5, 2, 1, 8, 4, 7, 6, 3}, 0, 0)
+		QuickSort([]int{1, 10, 19, 20, 2, 3, 10, 18, 10})
 	}
 }
 
-func ExampleGetPivotQuickSort() {
-	fmt.Println(GetPivotQuickSort([]int{5, 2, 1, 8, 4, 7, 6, 3}, 0, 0))
+func ExampleQuickSort() {
+	fmt.Println(QuickSort([]int{1, 10, 19, 20, 2, 3, 10, 18, 10}))
 	// Output:
-	// 4 [3 2 1 4 5 7 6 8]
+	// [1 2 3 10 10 10 18 19 20]
+}
+
+func testEq(a, b []int) bool {
+
+	// If one is nil, the other must also be nil.
+	if (a == nil) != (b == nil) {
+		return false
+	}
+
+	// The length of the slices has to be the same
+	if len(a) != len(b) {
+		return false
+	}
+
+	// Check element by element
+	for i := range a {
+		if a[i] != b[i] {
+			return false
+		}
+	}
+
+	return true
 }

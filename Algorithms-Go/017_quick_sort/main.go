@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	xi := algorithm.QuickSort([]int{5100, -3, 2, 4, 6, 9, 1, 2, 5, 3, 23}, 0, 0)
+	xi := algorithm.QuickSort([]int{3, -5, 5, 100, -3, 2, 4, 6, 9, 1, 2, 5, 3, 23})
 	fmt.Println(xi)
 }
