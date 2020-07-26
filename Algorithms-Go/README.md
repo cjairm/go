@@ -92,6 +92,8 @@
 -   [Get Pivot - Quick Sort](https://github.com/cjairm/go/tree/master/Algorithms-Go/015_get_pivot_quick_sort)
 -   [Average Pair](https://github.com/cjairm/go/tree/master/Algorithms-Go/016_average_pair)
 -   [Is Subsequence?](https://github.com/cjairm/go/tree/master/Algorithms-Go/018_is_subsequence)
+-   [Max Sum in SubArray](https://github.com/cjairm/go/tree/master/Algorithms-Go/020_max_sum_sub_array)
+-   [Min Sub Array Length](https://github.com/cjairm/go/tree/master/Algorithms-Go/021_min_sub_array_length)
 
 # Golang Algorithms
 
