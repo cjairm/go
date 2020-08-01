@@ -94,6 +94,10 @@
 -   [Is Subsequence?](https://github.com/cjairm/go/tree/master/Algorithms-Go/018_is_subsequence)
 -   [Max Sum in SubArray](https://github.com/cjairm/go/tree/master/Algorithms-Go/020_max_sum_sub_array)
 -   [Min Sub Array Length](https://github.com/cjairm/go/tree/master/Algorithms-Go/021_min_sub_array_length)
+-   [Find Longest Sub String](https://github.com/cjairm/go/tree/master/Algorithms-Go/022_find_longest_substring)
+-   [Power(Recursive)](https://github.com/cjairm/go/tree/master/Algorithms-Go/023_power)
+-   [Check Clock Angles](https://github.com/cjairm/go/tree/master/Algorithms-Go/024_clock_angles)
+-   [Is Valid Palindrome](https://github.com/cjairm/go/tree/master/Algorithms-Go/025_is_valid_palindrome)
 
 # Golang Algorithms
 
