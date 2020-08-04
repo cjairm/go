@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(algorithm.RemoveConsecutiveChar("abbcccbddddddddd", 3))
+	fmt.Println(algorithm.RemoveConsecutiveChar("abbcccbd", 3))
 }

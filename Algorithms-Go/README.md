@@ -100,6 +100,7 @@
 -   [Is Valid Palindrome](https://github.com/cjairm/go/tree/master/Algorithms-Go/025_is_valid_palindrome)
 -   [Remove Duplicates](https://github.com/cjairm/go/tree/master/Algorithms-Go/026_remove_duplicates)
 -   [Remove Consecutive Characthers](https://github.com/cjairm/go/tree/master/Algorithms-Go/027_remove_consecutive_char)
+-   [Product of Array](https://github.com/cjairm/go/tree/master/Algorithms-Go/028_array_product)
 
 # Golang Algorithms
 
