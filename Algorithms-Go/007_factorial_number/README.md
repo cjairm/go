@@ -6,7 +6,7 @@ It is a simple factorial calculation. Recursion.
 
 | Input     | Output         |
 |:---------:|:--------------:|
-| 0         | 0              |
+| 0         | 1              |
 |           |                |
 | 1         | 1              |
 |           |                |
@@ -20,7 +20,7 @@ This was my thinking before resolve the problem.
 ```
 Create a function called "FactorialNumber"
 
-If the n is equal to 0 return 0
+If the n is equal to 0 return 1
 
 If the n is equal to 1 return 1
 
