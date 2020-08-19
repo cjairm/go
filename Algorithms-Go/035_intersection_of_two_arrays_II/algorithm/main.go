@@ -5,45 +5,40 @@ import (
 	"math"
 )
 
-// SingleNumber a non-empty array of integers, every element appears twice except for one. Find that single one.
-func SingleNumber(xi []int) int {
-	xxi := MergeSort(xi)
-	var i int
+// Intersect Given two arrays, write a function to compute their intersection.
+func Intersect(xi1, xi2 []int) []int {
+	if len(xi1) <= 0 {
+		return []int{}
+	} else if len(xi2) <= 0 {
+		return []int{}
+	}
 
-	for len(xxi) > i {
-		if i+1 >= len(xxi) {
-			if xxi[i] != xxi[i-1] {
-				return xxi[i]
-			}
-		}
+	var i, j int
+	var result = []int{}
+	xi1 = MergeSort(xi1)
+	xi2 = MergeSort(xi2)
 
-		if xxi[i] == xxi[i+1] {
-			i += 2
+	if len(xi2) > len(xi1) {
+		tmp := xi1
+		xi1 = xi2
+		xi2 = tmp
+	}
+
+	for len(xi1) > i && len(xi2) > j {
+		numberOne := xi1[i]
+		numberTwo := xi2[j]
+		if numberOne == numberTwo {
+			result = append(result, numberOne)
+			j++
+			i++
+		} else if xi2[j] > xi1[i] {
+			i++
 		} else {
-			return xxi[i]
+			j++
 		}
 	}
 
-	return 0
-}
-
-// SingleNumberTwo a non-empty array of integers, every element appears twice except for one. Find that single one.
-func SingleNumberTwo(xi []int) int {
-	var i int
-	mapCompare := make(map[int]int)
-
-	for len(xi) > i {
-		mapCompare[xi[i]]++
-		i++
-	}
-
-	for k, v := range mapCompare {
-		if v == 1 {
-			return k
-		}
-	}
-
-	return 0
+	return result
 }
 
 // MergeSort sorts an array

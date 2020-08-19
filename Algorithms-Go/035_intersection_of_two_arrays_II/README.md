@@ -4,10 +4,10 @@ Write a recursive function called `Intersect`. Given two arrays, write a functio
 
 # Example Output
 
-|               Input                | Output |
-| :--------------------------------: | :----: |
+|              Input              | Output |
+| :-----------------------------: | :----: |
 |   Intersect([1,2,2,1], [2,2])   | [2,2]  |
-|                                    |        |
+|                                 |        |
 | Intersect([4,9,5], [9,4,9,8,4]) | [4,9]  |
 
 ```
