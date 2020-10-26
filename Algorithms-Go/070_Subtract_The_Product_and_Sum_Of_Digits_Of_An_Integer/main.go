@@ -1,6 +1,6 @@
 /**
  * Get each number from the full number
- * Pass them to a function
+ * Pass them to a function (Or get module)
  * Get Product Result
  * Get Sum Result
  * Get Product and Sum Result and Sub Sum from Product
